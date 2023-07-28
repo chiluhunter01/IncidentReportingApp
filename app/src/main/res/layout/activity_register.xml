@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:background="@drawable/text_view_shape"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/registerTxt"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/etRegName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_txt_shape"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/blue" />
+
+    <EditText
+        android:id="@+id/etRegPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_txt_shape"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/blue" />
+
+    <EditText
+        android:id="@+id/etRegGmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:background="@drawable/edit_txt_shape"
+        android:paddingLeft="25dp"
+        android:textColorHint="@color/blue" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegGmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_txt_shape"
+        android:paddingLeft="25dp"
+        android:textColorHint="@color/blue"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/ConfPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:background="@drawable/edit_txt_shape"
+        android:paddingLeft="25dp"
+        android:textColorHint="@color/blue" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegLogin"
+        android:background="@drawable/button_shape"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:layout_below="@+id/ConfPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+</RelativeLayout>

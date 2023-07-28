@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IncidentReportingApp</string>
+
+    <string name="A">EDUCATION PAGE</string>
+    <string name="B">This is an Incident Reporting App.</string>
+    <string name="C">Follow the instructions below on how to use the app</string>
+    <string name="D">1: Click on the \'report incident\' button on the user dashboard</string>
+    <string name="E">2: Enter the subject and the incident details. press send when done</string>
+    <string name="F">3: After you press send click on the gmail app and continue to send.</string>
+    <string name="G">The recipient email address is already set. Just press send in the gmail app.</string>
+    <string name="H">BACK</string>
+    <string name="I">USER LOGIN</string>
+    <string name="J">Email Address</string>
+    <string name="K">Password</string>
+    <string name="L">Login</string>
+    <string name="M">New User? Register</string>
+
+</resources>
